@@ -319,16 +319,16 @@ jobs:
 
           # Test with workers
           - workers: workers
-            regex: 'A-Fa-f'
+            regex: 'A-Ea-e'
 
           - workers: workers
-            regex: 'G-Lg-l'
+            regex: 'F-Lf-l'
 
           - workers: workers
-            regex: 'M-Rm-r'
+            regex: 'M-Qm-q'
 
           - workers: workers
-            regex: 'S-Zs-z'
+            regex: 'R-Zr-z'
 
     steps:
       # The path is set via a file given by $GITHUB_PATH. We need both Go 1.17 and GOPATH on the path to run Complement.
