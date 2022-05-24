@@ -40,6 +40,7 @@ export SYNAPSE_WORKER_TYPES="\
     pusher"
 
 export PYTHONDONTWRITEBYTECODE=1
+export PYTHONPROFILEIMPORTTIME=1
 
 # Run the script that writes the necessary config files and starts supervisord, which in turn
 # starts everything else
