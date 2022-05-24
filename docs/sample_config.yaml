@@ -544,7 +544,7 @@ templates:
   # See https://matrix-org.github.io/synapse/latest/templates.html for more
   # information about using custom templates.
   #
-  #custom_template_directory: /path/to/custom/templates/
+  #custom_templates_directory: /path/to/custom/templates/
 
 # List of rooms to exclude from sync responses. This is useful for server
 # administrators wishing to group users into a room without these users being able
