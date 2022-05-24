@@ -39,6 +39,8 @@ export SYNAPSE_WORKER_TYPES="\
     appservice, \
     pusher"
 
+export PYTHONDONTWRITEBYTECODE=1
+
 # Run the script that writes the necessary config files and starts supervisord, which in turn
 # starts everything else
 exec /configure_workers_and_start.py
